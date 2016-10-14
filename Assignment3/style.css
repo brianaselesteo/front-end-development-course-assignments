@@ -8,3 +8,25 @@
     background-color: black;
     width:250px;
 }
+.foot {    
+    padding: 15px;
+    border: 5px solid green ;
+    border-width: 15px;
+    background-color: red;
+    margin: auto;
+    text-align: center;
+    width:250px;
+    }
+    .swim {
+        border-style: dotted;
+        border-color: mediumpurple ;
+        border-width:15px;
+        background-color: yellow;
+        margin:auto;
+        padding:20px;
+        text-align:center;
+        width: 250px;
+
+
+
+    }
