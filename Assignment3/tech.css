@@ -1,0 +1,39 @@
+.earbuds {
+    text-align: center;
+    margin:auto;
+    padding: 10px;
+    border: 15px solid black ;
+    border-width: 15px;
+    background-color:darkgoldenrod;
+    width:250px;
+}
+.headphones {
+    text-align: center;
+    margin:auto;
+    padding: 10px;
+    border: 10px solid darkorange ;
+    border-width: 10px;
+    background-color: silver;
+    border-style: double;
+    width:200px;
+}
+.laptop {
+    text-align: center;
+    margin:auto;
+    padding: 10px;
+    border: 10px solid maroon ;
+    border-width: 20px;
+    background-color: lightpink;
+    border-style: ridge;
+    width:250px;
+}
+.phone {
+    border:15px solid turquoise;
+    border-width: 15px;
+    border-style: outset;
+    width: 200px;
+    padding:20px;
+    background-color: peachpuff;
+    margin:auto;
+
+}
