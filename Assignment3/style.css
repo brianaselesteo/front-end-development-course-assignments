@@ -1,3 +1,10 @@
-span {
-    border: 10px solid yellow ;
+
+.basketball {
+    text-align: center;
+    margin:auto;
+    padding: 10px;
+    border: 10px solid cadetblue ;
+    border-width: 20px;
+    background-color: black;
+    width:250px;
 }
