@@ -2,4 +2,14 @@ body {
     width:960px;
 margin:20px 0px;
 }
-h1 {color: #777777;}
+h1 {color: #777777;
+border-bottom: 1px solid #777777;}
+h2 {color:#aa0000;
+border-bottom:1px dashed #aa0000;}
+hr {clear:both;}
+
+.navigation-link {background-color:#000000; 
+color: #ffffff;
+display: block;
+float:left; margin:20px; padding:20px ;
+text-decoration:none;}
