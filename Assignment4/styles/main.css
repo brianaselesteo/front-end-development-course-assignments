@@ -1,6 +1,6 @@
 body {
     width:960px;
-margin:20px 0px;
+margin:20px auto;
 }
 h1 {color: #777777;
 border-bottom: 1px solid #777777;}
@@ -13,3 +13,10 @@ color: #ffffff;
 display: block;
 float:left; margin:20px; padding:20px ;
 text-decoration:none;}
+.image-list {list-style-type: none;
+margin:0; padding:0;}
+.gallery-image {
+    display:block;  
+    float:left;
+    margin:10px; 
+    padding:8px;}
