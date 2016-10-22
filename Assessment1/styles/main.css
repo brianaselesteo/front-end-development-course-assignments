@@ -7,6 +7,13 @@ h2 {font-size:20px;}
 a {color: #3a3a3a;}
 h1, h2, h3, h4, h5 {margin:0px;}
 
+.main-content {background-color: #ffffff;
+                margin-top:0px; margin-bottom:0px;
+                margin-left:auto; margin-right:auto; }
+.header {color:#ffffff;
+        padding:20px;
+        background-color: #89bdd3;}
+.header h2 {font-style: italic;}
 
 .clear{
     clear:both;
