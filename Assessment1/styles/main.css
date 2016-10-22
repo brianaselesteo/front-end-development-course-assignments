@@ -1,4 +1,11 @@
-
+body {color: #3a3a3a; 
+    background-color:#e3e3e3;   
+    font-family: arial, Arial, Helvetica, sans-serif;
+    margin: 0px;}
+h1 {font-size: 40px;}
+h2 {font-size:20px;}
+a {color: #3a3a3a;}
+h1, h2, h3, h4, h5 {margin:0px;}
 
 
 .clear{
