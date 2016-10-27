@@ -1,1 +1,13 @@
-
+body {width:960px; margin:auto;}
+.sidebar a {color:#aa0000;list-style-type:square; text-decoration:none;} 
+.sidebar {float:left; width:20%;padding:2%;}
+.sidebar ul {list-style-type: square;}
+.header {color: white; background-color:#00aaaa; height:128px; ;  text-shadow: 3px 3px #000000;}
+ .maincontent {float:right; width:70%;}
+.maincontent h1 {color:#aa0000;}
+.maincontent h2 {color:#aa0000;}
+.maincontent h3 {color:#aa0000;}
+.footer li {list-style: none; color:#aa0000;}
+.gallery {display:block; clear:both;}
+.gallery li { list-style-type:none; float:left; margin:10px; padding:10px;}
+.gallery h6 {text-align: center;}
