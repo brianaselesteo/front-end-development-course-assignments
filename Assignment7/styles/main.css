@@ -10,6 +10,7 @@ footer li {list-style-type:none;  display:inline-block; padding:20px; }
 footer a  {color:#aa0000;}
 .article section li  {list-style-type:none; float:left; margin:10px; padding:10px;}
 .article section h6 {text-align:center;}
+.article section li img {box-shadow: 5px 5px dimgrey;}
 .article h1 {color:#aa0000;}
 .article h2 {color:#aa0000;}
 .article h3 {color:#aa0000;}
