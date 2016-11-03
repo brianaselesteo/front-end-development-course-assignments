@@ -1,3 +1,21 @@
 * {
     box-sizing:border-box;
 }
+
+body {width:700px; margin:auto; }
+header nav {background-color:#a00; width:600px;}
+header nav ul li{border:1px solid white;}
+header nav ul {list-style-type:none;}
+header nav a {color:white; text-decoration:none;}
+.images {display:block; clear:both;}
+.images li {list-style-type:none;float:left;margin:20px; padding:20px;}
+.images h3 {text-align:center;}
+footer {clear:both;}
+footer li {  color:white; margin: auto;
+    padding: 10px;
+    font-size: 20px;
+background-color: dimgray; background-size: 400px; width: 600px; height:20px;
+}
+
+
+   
