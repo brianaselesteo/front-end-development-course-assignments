@@ -7,25 +7,52 @@ function update() {
     var lastName = getValue('lastName');
     console.log(firstName);
     console.log(lastName);
+document.getElementById('p1_fullName').innerHTML = firstName + ' ' + lastName
+var isValidname = true;
+var notValidname = false;
+if (firstName == "" || lastName == "") {getElm("p1_valid").innerHTML= notValidname
+} else {getElm ("p1_valid").innerHTML= isValidname}
+var namelength = (firstName+lastName).length;
+getElm("p1_fullNameLength").innerHTML = namelength
 
+/* Dans way---
 
-
-
+var isFnameValid = firstName.length > 0;
+var isLnameValid = lastName.length >0;
+var isFullValid = (isFnameValid === true && is LnameValid true);
+var fullname = firstname + " " + lastName;
+var firstNameInput = getElm ('firstName');
+ 
+ if (isFnameValid === false){firstNameInput.classList.add ('invalid');} else {
+     firstNameInput.classlist.remove('invalid');
+ }
+*/
     // Part 2
     var emailAddress = getValue('emailAddress');
     console.log(emailAddress);
+    getElm("p2_email").innerHTML = emailAddress
 
+    var isValidEmail = (emailAddress.indexOf('@') > -1);
+    getElm("p2_valid").innerHTML = isValidEmail;
+
+var emaillength = (emailAddress).length;
+getElm("p2_emailLength").innerHTML = emaillength
 
     // Part 3
     var randomNumber = getValue('randomNumber');
     console.log(randomNumber);
+getElm("p3_number").innerHTML = randomNumber
 
+var isNumbervalid = (randomNumber.indexOf ('#') >= 0);
+getElm("p3_valid").innerHTML = isNumbervalid;
 
 
 
     // Part 4
     var arrayInput = getValue('arrayValue');
     console.log(arrayInput);
+    array.push 
+
 
 
 
