@@ -26,20 +26,19 @@ for(var i = 0; i < msg.length; i++){
 
 
 var user = {
-    firstName: firstName ,
-    lastName: lastName ,
-    emailAddress: emailAddress 
+    first: firstName,
+    last: lastName,
+    email: emailAddress, 
            }
 
 user.fullname = function(){
-    return this.firstName + " " + this.lastName};
+    return this.first + " " + this.last;
+};
     
-
-    if(msg.lenth === 0){
-        alert("submitted"); }
-
-
-
+ if(msg.length === 0){
+        alert("submitted")
+        console.log("submitted");
+ }
 
 
 
@@ -50,7 +49,10 @@ user.fullname = function(){
 
 
 
-}
+
+
+
+};
 var btn = document.getElementById('btnUpdate');
 btn.addEventListener('click', update);
 
