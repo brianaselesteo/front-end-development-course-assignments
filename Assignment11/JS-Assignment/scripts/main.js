@@ -5,25 +5,38 @@ var lastName = getValue("lastName");
 console.log(lastName)
 var emailAddress = getValue("emailAddress");
 console.log(emailAddress)
-var messages = [];
 
 
-if (firstName == ""){messages.push("First Name is required");}
-if (lastName == ""){messages.push("Last name is required");}
-if (emailAddress == ""){messages.push("Email is required");}
-console.log(messages)
+var msg = [];
 
-var html = '<br>'
-for(var i = 0; i < messages.length; i++){
-    html= html + messages[i] + '<br>'
+
+if (firstName == ""){msg.push("First Name is required");}
+if (lastName == ""){msg.push("Last name is required");}
+if (emailAddress == ""){msg.push("Email is required");}
+console.log(msg)
+
+
+
+var errElm = getElm("error-list");
+
+for(var i = 0; i < msg.length; i++){
+    errElm.innerHTML += msg[i] + "<br/>";
 }
+    
 
-getElm("error-list").innerHTML = html
 
-var user = {firstName: firstName ,
-lastName: lastName ,
-email: emailAddress ,
-fullName return this.firstName + " " + this.lastName;}
+var user = {
+    firstName: firstName ,
+    lastName: lastName ,
+    emailAddress: emailAddress 
+           }
+
+user.fullname = function(){
+    return this.firstName + " " + this.lastName};
+    
+
+    if(msg.lenth === 0){
+        alert("submitted"); }
 
 
 
