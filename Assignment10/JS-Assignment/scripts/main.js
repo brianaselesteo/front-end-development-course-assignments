@@ -1,3 +1,4 @@
+var array = [];
 function update() {
     //////////////////////Your Code Starts here
 
@@ -41,17 +42,29 @@ getElm("p2_emailLength").innerHTML = emaillength
     // Part 3
     var randomNumber = getValue('randomNumber');
     console.log(randomNumber);
-getElm("p3_number").innerHTML = randomNumber
+getElm("p3_number").innerHTML = randomNumber;
+    
+var parsedNum = parseInt(randomNumber);
 
-var isNumbervalid = (randomNumber.indexOf ('#') >= 0);
-getElm("p3_valid").innerHTML = isNumbervalid;
-
+var isValidNumber;
+    if(parsedNum > 0){
+        isValidNumber = false;
+    } else{
+        isValidNumber = true;
+    }
+ getElm("p3_valid").innerHTML = isValidNumber;
+    console.log(randomNumber);
 
 
     // Part 4
     var arrayInput = getValue('arrayValue');
     console.log(arrayInput);
-    array.push 
+    array.push(arrayInput);
+    getElm("p4_arraylength").innerHTML = array.length;
+    
+    getElm("p4_valid").innerHTML = array;
+    
+    
 
 
 
