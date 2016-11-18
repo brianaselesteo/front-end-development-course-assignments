@@ -1,4 +1,4 @@
-# Assignment 12 
+# Assignment 12
 
 In today's assignment you are going to be recreating the form that can be found here: [https://worthyd.github.io/dummy-sites/simple-forms/](https://worthyd.github.io/dummy-sites/simple-forms/)
 

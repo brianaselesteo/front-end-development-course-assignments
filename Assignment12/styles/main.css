@@ -1,9 +1,14 @@
 * {
     box-sizing: border-box;
 }
+.errorClass{border: 1px solid #a50303;
+  background-color: #a50303;
+
+}
 
 body {
     width:500px;
     margin:20px auto;
-    
+
+
 }
