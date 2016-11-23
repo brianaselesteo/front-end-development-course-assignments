@@ -15,7 +15,7 @@ function update(){
 
   }
   var lastName=getElm("lastName");
-  if (lastName.value === "") {
+  if (lastName.value === ""){
     errorMsg.push("Last name is required")
     lastName.classList.add("errorClass");
   } else if (lastName.classList.remove("errorClass")) {
@@ -78,11 +78,12 @@ console.log(TAC.checked);
 
 
 
-
 if (errorMsg.length >0){
   var html= "";
   for (var i = 0; i < errorMsg.length; i++) {
     html += errorMsg[i] + "<br/>";
+    console.log(i);
+    console.log(html);
   }
 
 getElm("message").innerHTML = html;
