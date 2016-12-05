@@ -5,7 +5,7 @@
 .errorClass{border: 1px solid #a50303;
   background-color: #ff7f8e;}
 
-body{ padding: 0; margin: 0; background-color: #ccc; width:960px; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif}
+body{ padding: 0; margin: 0 auto; background-color: #ccc; width:960px; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif}
 .article img {float:left;}
 .header1 {background-color: #a50504; color:#ffffff; padding:20px;}
 .header1 h2 {font-style: italic; font-weight:400; padding:0;margin: 0; font-size:20px;}
@@ -20,11 +20,13 @@ nav .navigation-link{text-decoration:none; font-weight: bold; color: #ffffff;}
 .article, form {background-color: #ffffff; padding: 0%; margin: 0;}
 
 .form {padding:0%; margin: 0;}
-footer .navigation-link {text-decoration: none; color: #0f0f0f;}
+footer .navigation-link { word-spacing: 10px; margin: 50px; float: right; text-decoration: none; color: #0f0f0f;}
 
 .article header { font-size: 25px; text-align: center;}
 
 .inputs label {font-size: 125%; float:left;}
 .inputs input { padding:2%; border: 1px solid #a50504; width: 40%;}
+
+
 
 #error{color:#d31313; }
