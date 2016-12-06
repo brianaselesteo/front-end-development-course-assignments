@@ -35,6 +35,7 @@ section>section {
 section>aside {
     float: right;
     width: 33%;
+
 }
 section > section > div{
     float:left;
@@ -42,4 +43,23 @@ section > section > div{
 }
 .part3{
     display:none;
+
+    }
+
+.part-1[target]{color: #0c3af2;}
+
+.part-1 input[type="text"] {
+  background-color: #f20cc8;
+}
+
+.part-1 input[type="checkbox"]{
+  background-color: #fcf400;
+}
+
+.part-1 [href^="https"] {color: #00ff08;}
+
+.part-1 [href$=".edu"] { color:#ad00f7;}
+
+.part-1 [href*="mart"] { color:#2da9b7; }
+
 }
