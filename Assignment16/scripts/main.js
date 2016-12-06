@@ -1,14 +1,21 @@
 $(document).ready(function(){
 
 
-('#btnShow').on("click", function() {
+$('#btnShow').on("click", function() {
   $("section>aside").show()
   console.log("btnShow");
 });
 
-$(document).ready(function () {
-    $('.part3').removeClass('hidden');
+$('#btnHide').on("click", function() {
+  $("section>aside").hide()
+  console.log("btnHide");
 });
+
+$('#btnToggle').on("click", function() {
+  $("section>aside").toggle()
+});
+
+    $(".part3").show();
 
 $('#btnFadeIn').fadeIn()
 
