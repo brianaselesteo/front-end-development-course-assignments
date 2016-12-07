@@ -2,21 +2,32 @@ $(document).ready(function(){
 
 
 $('#btnShow').on("click", function() {
-  $("section>aside").show()
+  $(".display-basic").show()
   console.log("btnShow");
 });
 
 $('#btnHide').on("click", function() {
-  $("section>aside").hide()
+  $(".display-basic").hide()
   console.log("btnHide");
 });
 
 $('#btnToggle').on("click", function() {
-  $("section>aside").toggle()
+  $(".display-basic").toggle()
 });
 
     $(".part3").show();
 
-$('#btnFadeIn').fadeIn()
+$('#btnFadeIn').on("click", function(){
+  $(".display-fade").fadeIn();
+})
+
+$('#btnFadeOut').on('click', function() {
+    $(".display-fade").fadeOut();
+})
+
+$('#btnFadeToggle').on('click', function() {
+    $(".display-fade").toggle();
+})
+
 
 });
