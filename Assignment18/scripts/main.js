@@ -36,7 +36,7 @@ function validateRequiredInput(input) {
     var val = input.val();
 
     //Find the required input span.
-    var msgSpan = input.find('.requiredMsg');
+    var msgSpan = input.closest("input-group").find('.requiredMsg');
     if (val === '') {
         msgSpan.fadeIn();
         input.addClass('invalid');
@@ -58,12 +58,12 @@ function validateEmail(email) {
 
     //Only validate if it is filled out
     if (emailValue !== '') {
-        if (emailValue.indexOf('@') === -1 && emailValue.indexOf('@') === -1) {
+        if (emailValue.indexOf('@') > -1 && emailValue.indexOf('.com') > -1) {
             emailErrorMsg.fadeOut();
             email.removeClass('invald');
         } else {
             emailErrorMsg.fadeIn();
-            email.addClass('invald');
+            email.addClass('invalid');
         }
     }
 
@@ -79,7 +79,7 @@ function validatePassword() {
     var passwordConfirmValue = passwordConfirm.val();
 
     //Only validate if both are filled out
-    // if (passwordValue !== '' && passwordConfirmValue !== '') {
+    if (passwordValue !== '' && passwordConfirmValue !== '') {
 
     var passwordErrorMsg = password.closest('.input-group').find('.matchingMsg');
 
@@ -104,10 +104,10 @@ function validateAllInputs() {
     //Select all inputs and text areas
     var allInputs = $('input, textarea');
 
-    //Loop through each and validate individually    
+    //Loop through each and validate individually
     for (var i = 0; i < allInputs.length; i++) {
         var currentInput = allInputs.eq(i);
-        
+
         validateInput(currentInput);
 
         if (input.data('isemail') === true) {
@@ -124,7 +124,7 @@ function validateAllInputs() {
         $('#messages').html('Form is Invalid');
     } else {
         $('.form-element').fadeOut('slow', function () {
-            $('.successmsg').fadeIn();
+            $('#.successmsg').fadeIn();
         });
     }
 
