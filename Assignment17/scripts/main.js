@@ -26,6 +26,7 @@ var msg = input.closest(".input-group").find(".emailMsg");
   }else{ msg.fadeOut();
   }
 
+
 })
 
 
