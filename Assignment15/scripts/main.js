@@ -17,7 +17,7 @@ function update() {$(".update-html").html("<h3>Hello World!</h3>");
 }
 
 
-<<<<<<< HEAD
+//<<<<<<< HEAD
 $("#btnThree").on("click", three);
 function three() {$("#text-update").val("Hello World");
 }
@@ -35,6 +35,6 @@ function part6 () {
   $("#paste-text").val(copiedValue);
 }
 
-=======
->>>>>>> uagc-it-readiness/master
+//=======
+//>>>>>>> uagc-it-readiness/master
 });
