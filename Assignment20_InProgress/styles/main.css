@@ -24,7 +24,7 @@ h2, h3{
     margin-top:10px;
 
 }
-   
+
 .navigation > nav > a{
     display:block;
     float:left;
@@ -47,7 +47,7 @@ h2, h3{
 
 .question > article{
     float:left;
-    width:75%; 
+    width:75%;
 }
 .question > footer{
     float:right;
@@ -85,7 +85,7 @@ h2, h3{
     border:1px solid grey;
     border-radius: 10px;
     overflow:hidden;
- 
+
 }
 
 aside{

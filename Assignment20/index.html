@@ -2,23 +2,123 @@
 <html>
 
     <head>
-        <title>Assignment 18</title>
+        <title>Assignment 20</title>
         <link rel="stylesheet" href="styles/main.css">
     </head>
 
     <body>
-        <div class="fl">
-            <h2>Append</h2>
-            <ul id="append">
-            </ul>
-        </div>
-        <div class="fl">
-            <h2>Prepend</h2>
-            <ul id="prepend">
-            </ul>
-        </div>
         <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
         <script src="scripts/main.js"></script>
+
+        <header>
+          <img src="http://placehold.it/350x100" />
+          <nav>
+            <a href="#">Home</a>
+            <a href="#">Q & A</a>
+            <a href="https://twitter.com/HalluxInc">Twitter</a>
+            <a href="https://www.facebook.com/HalluxInc/">Facebook</a>
+
+          </nav>
+        </header>
+
+
+
+<section class = "question">
+  <h2>Question Title</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+     In facilisis dolor vel lectus egestas, eu facilisis arcu rhoncus.
+      Sed congue odio at ante elementum, sed vehicula metus tempus.
+      Pellentesque egestas consequat erat mollis varius. Aliquam et
+      nulla eget quam ornare mattis in in est. Pellentesque volutpat,
+      sapien dignissim venenatis placerat, arcu nunc pellentesque nulla,
+      nec sollicitudin lectus augue ultricies odio.</p>
+      <div class="side">
+        <h3>Asked By:<br>
+
+        <img src="avatar.png"/></h3>
+        John Doe
+
+      </div>
+</section>
+
+<section class= "answers">
+  <h2>Answers</h2>
+  <article>
+  <p>Praesent dictum mauris sed risus facilisis,
+    vel suscipit nisi fringilla. Aliquam eu elementum odio. Nam
+    vitae diam purus. Mauris mollis dapibus orci. </p>
+<footer class = "footer">
+  <img src="avatar.png"/>
+  John Doe
+</footer>
+</article>
+ <div>
+   <article>
+  <p> Praesent dictum mauris sed risus facilisis,
+   vel suscipit nisi fringilla. Aliquam eu elementum odio. Nam
+     vitae diam purus. Mauris mollis dapibus orci. </p>
+<footer class = "footer">
+     <img src="avatar.png"/>
+     Jane Doe
+     </footer>
+   </article>
+ </div>
+
+ <div>
+   <article>
+   <p>Praesent dictum mauris sed risus facilisis,
+     vel suscipit nisi fringilla. Aliquam eu elementum odio. Nam
+     vitae diam purus. Mauris mollis dapibus orci.</p>
+<footer class = "footer">
+     <img src="avatar.png"/>
+     Joe Doe
+</footer>
+ </div>
+ </article>
+</section>
+
+<div class = actlog>
+  <h2>Activity Log</h2>
+  <ul>
+    <li>John Doe responded</li>
+    <li>Jane Doe repsonded</li>
+    <li>Joe Doe repsonded</li>
+  </ul>
+</div>
+
+<section class= "form">
+  <form class="" action="index.html" method="post">
+  <p>  Submit Your Answer</p>
+
+
+
+<br>  <label for ="yourName"> Your Name</label>
+              <div class = "inputfield">
+              <input type="textbox"
+               id="yourName"
+               name="yourName"  >
+               <span class="error error-yourName">
+                 Name is required.</span>
+</div>
+
+
+          <br>  <label for ="yourAnswer"> Your Answer</label>
+            <div class = "inputfield">
+            <textarea name="yourAnswer"
+            id="yourAnswer">
+          </textarea>
+          <span class="error error-yourAnswer">
+            Answer is required.</span>
+</div>
+
+<div class="buttons">
+             <button type="button" id="buttonsubmit">Submit</button>
+             <button type="reset" id="buttonreset">Reset</button>
+
+  </div>
+  </form>
+</section>
+
     </body>
 
 </html>
