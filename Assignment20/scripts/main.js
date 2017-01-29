@@ -1,29 +1,21 @@
 $(document).ready(function () {
 
+  function getElm(id){
+  return document.getElementById(id); }
 
-  $('#buttonsubmit').on('click', submitForm);
-  $('#buttonreset').on('click', resetForm);
+buttonsubmit.addEventListener("click", update);
 
-
-  /*$('#yourName').on('blur', validateyourName);
-  $('#yourAnswer').on('blur', validateyourAnswer);*/
-
+ $('#yourName').on('blur', validateName);
 
   function validateName(){
-     var nameElm = $('#yourName');
-if (yourName.value=== "") {
-  errorMsg.push("Your name is required")
-  ;
+    var errorMsg=[];
+    var yourName=getElm("yourName");
+    if (yourName.value === "") {
+      errorMsg.push("Name is required")
+      yourName.classList.add(".error");
+    }else {
 
-}
- }
+    (yourName.classList.remove(".error"))
+  }
 
- function validateAnswer(){
-     var answerElm = $('#yourAnswer');
-
-     function resetForm(){
-     }
-
-    function submitForm(){
-    }
-});
+})

@@ -52,7 +52,7 @@ nav li a {
 footer nav,
 header nav,
 section {
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto
 }
 
@@ -67,4 +67,18 @@ section {
     border: 2px solid #333;
     display: block;
     margin: 0 auto
+}
+
+
+@media screen and (max-width:650px){
+  section > h1 {padding-left:10px; }
+.image-gallery li {width:33.33333%; }
+}
+
+@media screen and (max-width:480px){
+  .image-gallery li{
+    width:50%;
+  }
+
+  nav li {display: block; padding: 10px;}
 }
